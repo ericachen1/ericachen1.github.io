@@ -12,11 +12,10 @@ The breadboard, wires, plug-in stereo and ultrasonic sensor are were all borrowe
 
 When a user is close enough to the mirror, this will trigger the censor to activate consequently outputting a customizable melody through the speaker.
 
-## Arduino
-![Breadboard](/assets/img/posts/breadboard.jpg)
+## Arduino ![Breadboard](/img/posts/breadboard.jpg)
 The upper red wires on the left side of the Arduino UNO (smaller board) connect to the ultrasonic sensor on the breadboard (longer white).
 
-## Mirror
+## Mirror ![Mirror](/img/posts/mirror.jpg)
 The mirror has a floral petal design surrounding the perimeter of the mirror. There is enough space between the crevices to insert the ultrasonic sensor and hide the base of the breadboard.
 
 ## Music Code
