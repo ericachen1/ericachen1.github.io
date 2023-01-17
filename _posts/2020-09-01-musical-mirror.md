@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Musical Mirror"
+title: "Musical Mirror Arduino Project"
 subtitle: "environmentally conscious crafts"
 background: '/img/posts/mirror-background.jpg'
 ---

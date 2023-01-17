@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spanish Final Project Website"
+title: "Spanish Art React Website"
 subtitle: "travel blog of art in NYC"
 background: '/img/posts/time-square-art-post.jpg'
 ---
@@ -11,4 +11,4 @@ The following is a project I worked on during Spring 2022 after having completed
 ## React
 The React website incorporates components that takes in user input (title, location, image URL, type, description, year, style) to display on the site.
 
-[Link to Blog Website](https://ericachen1.github.io/proyecto-arte/)
+[Link to Blog Website](https://ericachensudo.github.io/proyecto-arte/)
