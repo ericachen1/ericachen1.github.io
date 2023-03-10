@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Representation in CS"
-subtitle: "midterm analysis paper"
+title: "Midterm Paper on Intersectionality"
+subtitle: "representation in computer science"
 background: '/img/posts/ai-skin-color.jpg'
 ---
 
@@ -53,10 +53,12 @@ Pozos R.K., Friend M. University of Nebraska
 Omaha, Friend, M., Omaha, U. of N., Virginia, U. of, Technology, A. F. I. of, College, K., University, C. S., University, M., & Metrics, O. M. V. A. (2021, March 1). "You sound like a good program manager": An analysis of gender in women's Computing Life Histories. ACM Conferences. Retrieved from https://dl.acm.org/doi/10.1145/3408877.3432433 
 
 Benton, A. V. (2020). I am doing more than coding: A qualitative study of black women HBCU 
-undergraduates’ persistence in computing (Order No. 28261914). Available from Ethnic NewsWatch; ProQuest Central; ProQuest Dissertations & Theses Global. (2476138250). Retrieved from http://ezproxy.cul.columbia.edu/login?url=https://www.proquest.com/dissertations-theses /i-am-doing-more-than-coding-qualitative-study/docview/2476138250/se-2 
+undergraduates’ persistence in computing (Order No. 28261914). Available from Ethnic NewsWatch; ProQuest Central; ProQuest Dissertations & Theses Global. (2476138250). Retrieved from http://ezproxy.cul.columbia.edu/login?url=https://www.proquest.com/dissertations-theses/i-am-doing-more-than-coding-qualitative-study/docview/2476138250/se-2 
 
 Larry Hardesty | MIT News Office. Study finds gender and skin-type bias in commercial 
-artificial-intelligence systems. MIT News | Massachusetts Institute of Technology. Retrieved from https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212 
+artificial-intelligence systems. 
+
+MIT News | Massachusetts Institute of Technology. Retrieved from https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212 
 
 Gagnon D. J., Mattingly M. J. (n.d.). University of New Hampshire Carsey Research. Limited 
 Access to AP Courses for Students in Smaller and More Isolated Rural School Districts. Retrieved from https://scholars.unh.edu/cgi/viewcontent.cgi?article=1234&context=carsey 
