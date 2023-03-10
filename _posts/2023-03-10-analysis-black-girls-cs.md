@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Underrepresentation of Black Girls in CS"
-subtitle: "Midterm Analysis Paper"
+title: "Representation in CS"
+subtitle: "midterm analysis paper"
 background: '/img/posts/ai-skin-color.jpg'
 ---
 
