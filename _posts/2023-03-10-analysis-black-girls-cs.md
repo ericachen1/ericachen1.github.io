@@ -28,3 +28,46 @@ One barrier of entry to CS that has been developing in the recent decade is incr
 
 ## Discussion
 By exploring macro and micro lenses, we are able to better understand the underrepresentation of Black women in the field of tech as a consequence of conditions that actively keep Black women in computer science. One outcome is that we see more Black women represented in the undergraduate major and a disproportionate number in the workforce. The Women of Color in Computing Data Brief found that among all women in tech, black women hold 7% of jobs (2016, p. 5), while among all women who earned a CS Bachelor’s degree, Black women are the highest recipients among minority groups, about 15% (2016, p. 4). There is a divide in the pipeline from CS education to the tech industry. Though the field is relatively new, future research needs to be done in exploring the effectiveness of the aforementioned recruiting programs when hiring employees of diverse backgrounds, so that conditions need to be changed from within the companies to encourage beneficial mentorships or fruitful interpersonal relations. “The new world that we are struggling to create must destroy oppression of any type. The value of this new system will be determined by the status of those persons who are presently most oppressed,” which works well with the idea that the group can only be as successful as its least fulfilled member (Frances, 1969, p. 7). 
+
+## References
+​​Changing the curve: Women in computing. (2022, December 01). Retrieved from 
+https://ischoolonline.berkeley.edu/blog/women-computing-computer-science/ 
+
+Data Brief: Women and girls of color in computing. (n.d.). Retrieved from 
+https://www.wocincomputing.org/wp-content/uploads/2018/08/WOCinComputingDataBrief.pdf 
+
+Hamrick, K. (n.d.). Data tables. Retrieved from https://ncses.nsf.gov/pubs/nsf21321/table/5-1 
+Aragão, C. (2023, March 01). Gender pay gap in U.S. hasn't changed much in two decades. 
+Retrieved from https://www.pewresearch.org/fact-tank/2023/03/01/gender-pay-gap-facts/ 
+
+Rankin, Y. A., Erete, S., & Thomas, J. O. (n.d.). Real talk: Saturated sites of violence in CS 
+Education. Retrieved from https://dl.acm.org/doi/pdf/10.1145/3463406
+
+Tilo, D. (2022, May 17). 90% of female employees suffer from imposter syndrome. Retrieved 
+from https://www.hcamag.com/us/specialization/employment-law/90-of-female-employees-suffer-from-imposter-syndrome/406545#:~:text=From%20the%20report%2C%20it%20showed,25%25%20are%20aware%20of%20this.
+
+Snyder, K. (2021, April 24). Why women leave tech: It's the culture, not because 'math is hard'. 
+Retrieved from https://fortune.com/2014/10/02/women-leave-tech-culture/ 
+
+Pozos R.K., Friend M. University of Nebraska 
+Omaha, Friend, M., Omaha, U. of N., Virginia, U. of, Technology, A. F. I. of, College, K., University, C. S., University, M., & Metrics, O. M. V. A. (2021, March 1). "You sound like a good program manager": An analysis of gender in women's Computing Life Histories. ACM Conferences. Retrieved from https://dl.acm.org/doi/10.1145/3408877.3432433 
+
+Benton, A. V. (2020). I am doing more than coding: A qualitative study of black women HBCU 
+undergraduates’ persistence in computing (Order No. 28261914). Available from Ethnic NewsWatch; ProQuest Central; ProQuest Dissertations & Theses Global. (2476138250). Retrieved from http://ezproxy.cul.columbia.edu/login?url=https://www.proquest.com/dissertations-theses /i-am-doing-more-than-coding-qualitative-study/docview/2476138250/se-2 
+
+Larry Hardesty | MIT News Office. Study finds gender and skin-type bias in commercial 
+artificial-intelligence systems. MIT News | Massachusetts Institute of Technology. Retrieved from https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212 
+
+Gagnon D. J., Mattingly M. J. (n.d.). University of New Hampshire Carsey Research. Limited 
+Access to AP Courses for Students in Smaller and More Isolated Rural School Districts. Retrieved from https://scholars.unh.edu/cgi/viewcontent.cgi?article=1234&context=carsey 
+
+Moraga, C. and Anzaldúa, G. (2015) This bridge called my back: Writings by radical women of 
+color. Albany: State University of New York Press. 			
+
+Crenshaw, K. (2005). Mapping the Margins: Intersectionality, Identity Politics, and Violence 
+against Women of Color (1994).
+ Frances M. Beal (1969) Black women's manifesto; double jeopardy: To be black and female., 
+Black Women's Manifesto; Double Jeopardy: To Be Black and Female. (n.d.).  
+
+Ross, L., & Solinger, R. (2017). Reproductive Justice in the Twenty-first Century. In 
+Reproductive justice an introduction. essay, University of California Press. 
