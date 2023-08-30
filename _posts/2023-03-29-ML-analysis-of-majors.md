@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Applied Machine Learning Analysis on College Major Popularity"
+title: "Machine Learning Paper on College Majors"
 subtitle: "survey of machine learning algorithms"
 background: '/img/posts/gradcap.jpg'
 ---
