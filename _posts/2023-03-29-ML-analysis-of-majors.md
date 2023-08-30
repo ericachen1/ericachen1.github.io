@@ -40,8 +40,7 @@ It is also important to acknowledge there are intervals of time where data is sy
 
 ![Figure 3](/img/posts/pt3_lin_reg.jpg)
 
-(3.1) yˆ = −34365996.87844855 + 17510.32944203554 ∗ X
-
+3.1 $$ \hat{y} = -34365996.87844855 + 17510.32944203554 \times X $$
 
 3.2. Decision Tree. Decision tree models are a popular choice for classification and re- gression problems. Decision trees recursively split the data based on the features that are most informative for the target (y label) variable. However, decision trees can be prone to over fitting, especially when the tree is deep or the data set is noisy. To avoid over fitting, pruning techniques such as post-pruning or pre-pruning can be used.
 
