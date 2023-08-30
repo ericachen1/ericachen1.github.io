@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning Paper on College Majors"
+title: "Analysis on College Majors"
 subtitle: "survey of machine learning algorithms"
 background: '/img/posts/gradcap.jpg'
 ---
