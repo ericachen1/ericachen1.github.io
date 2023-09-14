@@ -59,7 +59,7 @@
           {% endif %}
           {% if site.instagram_username %}
           <li class="list-inline-item">
-            <a href="https://instagram.com/{{ site.instagram_username }}">
+            <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
@@ -67,8 +67,20 @@
             </a>
           </li>
           {% endif %}
+          {% if site.resume_link %}
+          <li class="list-inline-item">
+            <a href="{{https://docs.google.com/document/d/1cqyMCBshWB4cKxRMhhlJ1LHR0qUVGgZ5vMBjJPOQvFw/edit?usp=sharing}}" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i> <!-- using file-alt icon for resume -->
+              </span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
-        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+        <p class="copyright text-muted"> 
+          Made with <img src="/Users/chenerica/Desktop/ericachensudo.github.io/img/posts/hearthands.jpeg" alt="heart emoji" style="height: 1em; vertical-align: middle;">
+        </p>
       </div>
     </div>
   </div>
