@@ -1,0 +1,5 @@
+I"ï<h2 id="background">background</h2>
+<p>The following is a side project I worked on during Fall of 2020. The project consists of four components. The mirror was purchased from Target at the Discount Section. I collected empty toilet paper rolls to create the surrounding floral pattern of the mirror.
+I headed to my local hardware store to purchase a breadboard, wires, plug-in stereo and ultrasonic sensor. I downloaded the free software, Arduino, to code the project. I was not familiar with Arduino, so I taught myself the syntax of C++ before I was successful in coding the project to life. The function of the Musical Mirror is when an object is close enough to the mirror the sensor will recognize this and the speaker will output a melody.</p>
+
+:ET
