@@ -6,47 +6,45 @@
     <title>Welcome</title>
 </head>
 <body>
-    <form id="myForm">
-        <input type="text" id="myInput" name="myInput" placeholder="What are you grateful for">
-        <button type="submit" onclick="location.href='about.html'">Enter</button>
-    </form>
-
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js"></script>
 
     <script>
         const firebaseConfig = {
-        apiKey: "AIzaSyAyo27u_KVwQQsijBGvHcBcQGYE-KOX-Co",
-        authDomain: "personal-website-a7734.firebaseapp.com",
-        projectId: "personal-website-a7734",
-        storageBucket: "personal-website-a7734.appspot.com",
-        messagingSenderId: "298348417083",
-        appId: "1:298348417083:web:c7e1a6f8af7af5cc1e0c1e",
-        measurementId: "G-PQPS86CCQS"
+            apiKey: "AIzaSyAyo27u_KVwQQsijBGvHcBcQGYE-KOX-Co",
+            authDomain: "personal-website-a7734.firebaseapp.com",
+            projectId: "personal-website-a7734",
+            storageBucket: "personal-website-a7734.appspot.com",
+            messagingSenderId: "298348417083",
+            appId: "1:298348417083:web:c7e1a6f8af7af5cc1e0c1e",
+            measurementId: "G-PQPS86CCQS"
         };
     
-        // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
 
-        document.getElementById('myForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-        
-            var input = document.getElementById('myInput').value;
-        
-            // Reference to your Firebase Realtime Database
-            var database = firebase.database();
+        function promptForInput() {
+            var userInput = prompt("What are you grateful for?");
             
-            // Push the input data to the 'entries' node in the database
-            database.ref('entries').push({
-                entry: input
-            })
-            .then(() => {
-                console.log('Data sent to Firebase successfully');
-            })
-            .catch((error) => {
-                console.error('Error sending data to Firebase:', error);
-            });
-        });
+            // Check if the user clicked Cancel or entered an empty string
+            if (userInput === null || userInput.trim() === "") {
+                alert("Please enter something before pressing Enter.");
+            } else {
+                var database = firebase.database();
+                
+                database.ref('entries').push({
+                    entry: userInput
+                })
+                .then(() => {
+                    console.log('Data sent to Firebase successfully');
+                    window.location.href = 'about.html';
+                })
+                .catch((error) => {
+                    console.error('Error sending data to Firebase:', error);
+                });
+            }
+        }
+
+        promptForInput();
     </script>
 </body>
 </html>
