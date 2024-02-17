@@ -30,3 +30,10 @@ function submitText() {
         console.log('Input is empty. Please enter text.');
     }
 }
+
+function checkEnter(event) {
+    if (event.key === 'Enter') {
+        submitText();
+        window.location.href = '/about.html';
+    }
+}
