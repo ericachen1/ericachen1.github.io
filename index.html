@@ -1,6 +1,12 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome</title>
+        <link rel="icon" href="/assets/favicon/favicon.ico">
+    </head>
+    
     <title>Welcome</title>
     <style>
         body {
@@ -17,7 +23,57 @@
     </style>
 </head>
 <body>
+    <form id="myForm">
+        <label for="myInput"> What are you grateful for:</label>
+        <input type="text" id="myInput" name="myInput" placeholder="Enter your input">
+        <button type="submit">Enter</button>
+    </form>
     <button onclick="location.href='about.html'">Enter</button>
-    {% include footer.html %}
+    
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+        
+            var input = document.getElementById('myInput').value;
+        
+            fetch('/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ input: input }),
+            })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch((error) => {
+                console.error('Error:', error);
+                window.location.href = 'about.html';
+            });
+        });
+    </script>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+    
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+        apiKey: "AIzaSyAyo27u_KVwQQsijBGvHcBcQGYE-KOX-Co",
+        authDomain: "personal-website-a7734.firebaseapp.com",
+        projectId: "personal-website-a7734",
+        storageBucket: "personal-website-a7734.appspot.com",
+        messagingSenderId: "298348417083",
+        appId: "1:298348417083:web:c7e1a6f8af7af5cc1e0c1e",
+        measurementId: "G-PQPS86CCQS"
+        };
+    
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 </body>
 </html>
