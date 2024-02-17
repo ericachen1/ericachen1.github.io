@@ -1,0 +1,23 @@
+title:              Erica Chen
+email:              ericachensudo@gmail.com
+description:        Hello, World! My name is Erica! I'm passionate about building technology to create innovative solutions for a more connected and equitable world.
+author:             Erica Chen
+baseurl:            ""
+url:                "https://ericachensudo.github.io"
+
+# Social Profiles
+github_username:    ericachensudo
+instagram_username:  ericraftss
+linkedin_username: ericachensudo
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
